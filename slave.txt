@@ -1,0 +1,8 @@
+server-id = 2
+replicate-do-db=dryice
+relay-log = /var/lib/mysql/mysql-relay-bin
+relay-log-index = /var/lib/mysql/mysql-relay-bin.index
+log-error = /var/lib/mysql/mysql.err
+master-info-file = /var/lib/mysql/mysql-master.info
+relay-log-info-file = /var/lib/mysql/mysql-relay-log.info
+log-bin = /var/lib/mysql/mysql-bin
