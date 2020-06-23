@@ -23,7 +23,7 @@ echo $pos >>param.txt
 mysqldump -u root -p$mysqlpass --all-databases --master-data > /root/dbdump.db
 
 mysql -u root -p$mysqlpass -Bse "UNLOCK TABLES;"
-sshpass -p '@dmin987!' scp /root/dbdump.db root@$slaveip:/root/
+sshpass -p '@________!' scp /root/dbdump.db root@$slaveip:/root/
 
 
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
